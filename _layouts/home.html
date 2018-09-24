@@ -1,11 +1,17 @@
 {% include head.html %}
 
+{% include nav-bar.html %}
+
   <div id="home" class="section scrollspy">
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container auto-height">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container center">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">{{ site.title }}</h1>
+        {% if site.logo %}
+          <img src="{{ site.logo }}" class='center site-logo' alt='{{ site.logo_description }}'/> 
+        {% else %}
+          <h1 class="header center teal-text text-lighten-2">{{ site.title }}</h1>
+        {% endif %}
         <div class="row center">
           <h5 class="header col s12 light">{{ site.description }}</h5>
         </div>
@@ -17,11 +23,12 @@
   </div>
 </div>
 
-<div id="cookies" style="display:{{site.cookies_banner}}">
-  <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check" class="waves-effect waves-light green lighten-1 btn btn-floating pulse" onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)" ><i class="material-icons">check</i></a></p>
-  {% include cookies.html %}
-</div>
-
+{% if site.cookies_banner %}
+  <div id="cookies" style="display:show;">
+    <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check" class="waves-effect waves-light green lighten-1 btn btn-floating pulse" onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)" ><i class="material-icons">check</i></a></p>
+    {% include cookies.html %}
+  </div>
+{% endif %}
 <div class="container" style="padding:20px;">
   <div id="portfolio" class="section scrollspy">
 
@@ -70,9 +77,5 @@
 </div>
 </div>
 
-
-
-
-{% include nav-burger.html %}
 
 {% include footer.html %}

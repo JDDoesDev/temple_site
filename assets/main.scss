@@ -8,5 +8,6 @@ $spacing-unit:     30px !default;
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
+@import "css/materialize.css";
 @import "syntax-highlighting";
+@import "custom";

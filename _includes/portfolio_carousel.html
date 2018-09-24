@@ -1,7 +1,16 @@
-<div class="carousel carousel-slider center" data-indicators="true">
-  <div class="carousel-fixed-item">
-    <i class="material-icons" style="color:white" href="https://jameshamann.com">code</i>
-  </div>
+<div class="carousel carousel-slider center">
+  <div class="carousel-fixed-item center middle-indicator flex-container">
+      <div class="left">
+        <a href="Previous" class="movePrevCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="medium material-icons left  middle-indicator-text white-icon">chevron_left</i></a>
+      </div>
+      <div class="center">
+        <a href="Pause" class="pauseCarousel middle-indicator-text waves-effect waves-light content-indicator"><i class="medium material-icons center  middle-indicator-text white-icon">pause</i></a>
+      </div>
+      <div class="right">
+        <a href="Next" class=" moveNextCarousel middle-indicator-text waves-effect waves-light content-indicator"><i
+            class="medium material-icons right middle-indicator-text white-icon">chevron_right</i></a>
+      </div>
+    </div>
   <div class="carousel-item white-text" style="background-color: #90a4ae;" href="#one!">
     <h2>{{ site.project_one }}</h2>
     <i class="medium material-icons">{{site.project_one_icon}}</i>
