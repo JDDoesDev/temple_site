@@ -11,6 +11,7 @@ gem "selenium-webdriver"
 gem "rack-jekyll"
 gem "pry"
 gem "puma"
+gem 'jekyll-compress-images'
 
 
 group :jekyll_plugins do
