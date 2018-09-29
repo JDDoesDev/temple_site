@@ -82,4 +82,4 @@ logos:
   - name: Dagger Mountain
     uri: assets/images/dagger-mountain.jpg
 
-exclude: [_compress_images_cache.yml, node_modules]
+exclude: [_compress_images_cache.yml, node_modules, Gemfile*, package*]
