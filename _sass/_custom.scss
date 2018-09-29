@@ -21,6 +21,28 @@ h3 {
 .flex-container {
   display: flex;
   justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.menu {
+
+  .item {
+    width: 85%;
+    margin: auto;
+    text-align: left;
+    font-size: 16px;
+
+    .price {
+      float: right;
+    }
+
+    .description {
+      display: block;
+      font-size: .8em;
+      font-weight: bold;
+    }
+  }
 }
 
 #home.section {
@@ -51,8 +73,17 @@ h3 {
     background: #000000;
 
     img {
-      opacity: .5;
+      opacity: .3;
     }
+  }
+  
+  .section.no-pad-bot {
+    margin: auto;
+  }
+
+  .menu,
+  .menu-disclaimer {
+    color: white;
   }
 }
 

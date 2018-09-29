@@ -1,0 +1,19 @@
+{% assign category = null %}
+<div class='menu col s12'>
+  {% for item in site.data.menu %}
+    {% if item.category != category %}
+      {% if category != null %}
+        </div>
+      {% endif %}
+    <div class="category col s12 m4">
+      <h3 class='category-name'>{{ item.category }}</h3>
+    {% endif %}
+    {% assign category = item.category %}
+    <div class="item">
+      <span class="name">{{item.name}} {% if item.variation_name and item.variation_name != 'Regular' %} - {{item.variation_name}}{% endif %}</span>
+      <span class="price">${{item.price}}</span>
+      <span class="description">{{item.description}}</span>
+    </div>
+  {% endfor %}
+</div>
+</div>
