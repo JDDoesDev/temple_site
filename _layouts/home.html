@@ -1,6 +1,7 @@
 {% include head.html %}
 
 {% include nav-bar.html %}
+{% include nav-burger.html %}
 
   <div id="home" class="section scrollspy">
   <div id="index-banner" class="parallax-container auto-height">
@@ -29,7 +30,7 @@
     {% include cookies.html %}
   </div>
 {% endif %}
-<div class="container" style="padding:20px;">
+<div class="container">
   <div id="portfolio" class="section scrollspy">
   {% include portfolio_{{site.portfolio_type}}.html %}
   </div>

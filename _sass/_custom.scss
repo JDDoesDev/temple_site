@@ -57,6 +57,19 @@ h3 {
       color: #ffff;
       font-family: $font-heading;
     }
+
+    ul a.btn-floating {
+      > .mdi {
+        line-height: inherit;
+        height: inherit;
+        text-align: center;
+      }
+    }
+  }
+  
+  .brand-logo {
+    left: 0;
+    transform: none;
   }
 }
 
@@ -89,4 +102,18 @@ h3 {
 
 .project-img img {
   max-height: 500px; 
+}
+
+.card .card-title.activator {
+  float: right;
+}
+
+.carousel.carousel-slider {
+  min-height: 400px
+}
+
+.btn-floating span {
+  width: inherit;
+  display: inline-block;
+  text-align: center;
 }
