@@ -1,4 +1,4 @@
-# Jekyll Material Theme
+# Jekyll Material Theme but for Temple
 
 A Jekyll Theme based on [Material Design](https://material.io/) using [Materialize](http://materializecss.com/).
 
