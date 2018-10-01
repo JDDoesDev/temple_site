@@ -117,3 +117,15 @@ h3 {
   display: inline-block;
   text-align: center;
 }
+
+@media only screen and (max-width: 992px) {
+  i.medium {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .carousel.carousel-slider {
+    min-height: 750px;
+  }
+}

@@ -2662,11 +2662,6 @@ i.small {
 i.medium {
   font-size: 4rem;
 }
-@media only screen and (max-width: 992px) {
-  i.medium {
-    font-size: 3rem;
-  }
-}
 
 i.large {
   font-size: 6rem;
