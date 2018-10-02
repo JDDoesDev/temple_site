@@ -82,4 +82,6 @@ logos:
   - name: Dagger Mountain
     uri: assets/images/dagger-mountain.jpg
 
-exclude: [_compress_images_cache.yml, node_modules, Gemfile*, package*]
+exclude: [_compress_images_cache.yml]
+gems:
+  - jekyll-babel
