@@ -2,7 +2,13 @@
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/materialize.min.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/node_modules/instafeed.js/instafeed.min.js">
-
+  var userFeed = new Instafeed({
+    get: 'user',
+    userId: '1226130250',
+    accessToken: 'aa2066f792344b948726aa15f4cc3a5e',
+    limit: 4
+  });
+  userFeed.run();
 </script>
 <script src="{{site.baseurl}}/assets/js/init.js"></script>
 
