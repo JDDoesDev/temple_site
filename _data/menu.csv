@@ -1,32 +1,34 @@
 name,description,category,sku,variation_name,price,current quantity temple,new_quantity_temple,stock_alert_enabled_temple,stock_alert_count_temple,modifier_set_coffee_flavors,modifier_set_ice_cream_flavors,modifier_set_espresso_shots,modifier_set_non_dairy_espresso_milks,modifier_set_sandwich,modifier_set_sammich_stuff,modifier_set_bread_stuff,tax_tax_included_7
-Affogato,A scoop of ice cream with a single shot of espresso poured over it,Coffee,,Med,4,,,,,Y,N,Y,N,N,N,N,Y
-Affogato,A scoop of ice cream with a double shot of espresso poured over it,Coffee,,Large,5,,,,,Y,N,Y,N,N,N,N,Y
-Americano,,Coffee,,Regular (1 shot),3,,,,,Y,N,N,N,N,N,N,Y
-Americano,,Coffee,,Large (2 Shots),3.75,,,,,Y,N,N,N,N,N,N,Y
-Breve,Like a latte but with half and half instead of milk.,Coffee,,Regular,4.5,,,,,Y,N,Y,Y,N,N,N,Y
-Cappuccino,,Coffee,,Regular,3.5,,,,,Y,N,N,Y,N,N,N,Y
-Cappuccino,,Coffee,,Large,4.5,,,,,Y,N,N,Y,N,N,N,Y
-Coffee,,Coffee,,20 oz - To Go,2.5,,,,,Y,N,N,N,N,N,N,Y
-Coffee,,Coffee,,16 oz - To Go,2.25,,,,,Y,N,N,N,N,N,N,Y
-Coffee,Bottomless,Coffee,,Mug - For Here,3.25,,,,,Y,N,N,N,N,N,N,Y
-Coffee,,Coffee,,Iced,3,,,,,Y,N,N,N,N,N,N,Y
-Espresso,,Coffee,,Single,2.5,,,,,Y,N,N,N,N,N,N,Y
-Espresso,,Coffee,,Double,3.25,,,,,Y,N,N,N,N,N,N,Y
-Espresso,,Coffee,,Triple,3.75,,,,,Y,N,N,N,N,N,N,Y
-Frappe,,Coffee,,Regular,5,,,,,N,N,Y,Y,N,N,N,Y
-French Press,,Coffee,,Regular,4,,,,,N,N,N,N,N,N,N,Y
-Latte,,Coffee,,Hot,4.75,,,,,Y,N,Y,Y,N,N,N,Y
-Latte,,Coffee,,Iced (Includes flavor),5,,,,,Y,N,Y,Y,N,N,N,Y
-Macchiato,,Coffee,,Regular,3,,,,,N,N,N,Y,N,N,N,Y
-Mocha Latte,,Coffee,,Regular,5,,,,,N,N,Y,N,N,N,N,Y
-Pour Over,,Coffee,,Regular,4,,,,,N,N,N,N,N,N,N,Y
-Red Eye,,Coffee,,20 oz,4,,,,,Y,N,Y,N,N,N,N,Y
-Red Eye,,Coffee,,16 oz,3.25,,,,,Y,N,Y,N,N,N,N,Y
-Chai Latte,,Drinks,,Dirty,4.5,,,,,N,N,N,N,N,N,N,Y
-Chai Latte,,Drinks,,16 oz,3.75,,,,,N,N,N,N,N,N,N,Y
-Hot Chocolate,,Drinks,,Large,3,,,,,Y,N,Y,N,N,N,N,Y
-Hot Chocolate,,Drinks,,Med,2.75,,,,,Y,N,Y,N,N,N,N,Y
-Hot Chocolate,,Drinks,,Sm,2.25,,,,,Y,N,Y,N,N,N,N,Y
+Affogato,A scoop of ice cream with a single shot of espresso poured over it,Coffee and Tea,,Med,4,,,,,Y,N,Y,N,N,N,N,Y
+Affogato,A scoop of ice cream with a double shot of espresso poured over it,Coffee and Tea,,Large,5,,,,,Y,N,Y,N,N,N,N,Y
+Americano,,Coffee and Tea,,Regular (1 shot),3,,,,,Y,N,N,N,N,N,N,Y
+Americano,,Coffee and Tea,,Large (2 Shots),3.75,,,,,Y,N,N,N,N,N,N,Y
+Breve,Like a latte but with half and half instead of milk.,Coffee and Tea,,Regular,4.5,,,,,Y,N,Y,Y,N,N,N,Y
+Cappuccino,,Coffee and Tea,,Regular,3.5,,,,,Y,N,N,Y,N,N,N,Y
+Cappuccino,,Coffee and Tea,,Large,4.5,,,,,Y,N,N,Y,N,N,N,Y
+Coffee,,Coffee and Tea,,20 oz - To Go,2.5,,,,,Y,N,N,N,N,N,N,Y
+Coffee,,Coffee and Tea,,16 oz - To Go,2.25,,,,,Y,N,N,N,N,N,N,Y
+Coffee,Bottomless,Coffee and Tea,,Mug - For Here,3.25,,,,,Y,N,N,N,N,N,N,Y
+Coffee,,Coffee and Tea,,Iced,3,,,,,Y,N,N,N,N,N,N,Y
+Espresso,,Coffee and Tea,,Single,2.5,,,,,Y,N,N,N,N,N,N,Y
+Espresso,,Coffee and Tea,,Double,3.25,,,,,Y,N,N,N,N,N,N,Y
+Espresso,,Coffee and Tea,,Triple,3.75,,,,,Y,N,N,N,N,N,N,Y
+Frappe,,Coffee and Tea,,Regular,5,,,,,N,N,Y,Y,N,N,N,Y
+French Press,,Coffee and Tea,,Regular,4,,,,,N,N,N,N,N,N,N,Y
+Latte,,Coffee and Tea,,Hot,4.75,,,,,Y,N,Y,Y,N,N,N,Y
+Latte,,Coffee and Tea,,Iced (Includes flavor),5,,,,,Y,N,Y,Y,N,N,N,Y
+Macchiato,,Coffee and Tea,,Regular,3,,,,,N,N,N,Y,N,N,N,Y
+Mocha Latte,,Coffee and Tea,,Regular,5,,,,,N,N,Y,N,N,N,N,Y
+Pour Over,,Coffee and Tea,,Regular,4,,,,,N,N,N,N,N,N,N,Y
+Red Eye,,Coffee and Tea,,20 oz,4,,,,,Y,N,Y,N,N,N,N,Y
+Red Eye,,Coffee and Tea,,16 oz,3.25,,,,,Y,N,Y,N,N,N,N,Y
+Chai Latte,,Coffee and Tea,,Dirty,4.5,,,,,N,N,N,N,N,N,N,Y
+Chai Latte,,Coffee and Tea,,16 oz,3.75,,,,,N,N,N,N,N,N,N,Y
+Hot Tea,,Coffee and Tea,,16 oz,2.5,,,,,Y,N,Y,N,N,N,N,Y
+Hot Tea,,Coffee and Tea,,20 oz,2.75,,,,,Y,N,Y,N,N,N,N,Y
+Hot Chocolate,,Coffee and Tea,,Large,3,,,,,Y,N,Y,N,N,N,N,Y
+Hot Chocolate,,Coffee and Tea,,Med,2.75,,,,,Y,N,Y,N,N,N,N,Y
+Hot Chocolate,,Coffee and Tea,,Sm,2.25,,,,,Y,N,Y,N,N,N,N,Y
 Italian Soda,,Drinks,,Regular,3,,,,,N,N,N,N,N,N,N,Y
 Bottled Juice,,Drinks,,Regular,1.75,,,,,N,N,N,N,N,N,N,Y
 Milk,,Drinks,,Regular,1.75,,,,,N,N,N,N,N,N,N,Y
@@ -46,11 +48,14 @@ Banana,,Food,,Regular,0.75,,,,,N,N,N,N,N,N,N,Y
 Belvita,,Food,,,2.25,,,,,N,N,N,N,N,N,N,Y
 Biscuits & Gravy,,Food,,Full,4.5,,,,,N,N,N,N,N,N,N,Y
 Biscuits & Gravy,,Food,,Half,3.25,,,,,N,N,N,N,N,N,N,Y
-Chiobani Yogurt,,Food,,,3,,,,,N,N,N,N,N,N,N,Y
+Yogurt,,Food,,,2,,,,,N,N,N,N,N,N,N,Y
 Chips,,Food,,Regular,1.5,,,,,N,N,N,N,N,N,N,Y
 "Cookie, Alternative Baking Company",,Food,,Regular,2.5,,,,,N,N,N,N,N,N,N,Y
 English Muffin,,Food,,Regular,1.5,,,,,N,N,N,N,N,N,N,Y
-Lunch Special,,Food,,Regular,8,,,,,N,N,N,N,Y,N,N,Y
+Lunch Special,,Food,,Omni,8,,,,,N,N,N,N,Y,N,N,Y
+Lunch Special,,Food,,Omni - Sandwich Only,5.5,,,,,N,N,N,N,Y,N,N,Y
+Lunch Special,,Food,,Vegan,9,,,,,N,N,N,N,Y,N,N,Y
+Lunch Special,,Food,,Vegan - Sandwich Only,6.5,,,,,N,N,N,N,Y,N,N,Y
 Breakfast Sandwich,"Your choice of English muffin, bread, or bagel topped with egg, sausage or ham, and cheese.  Add $0.50 for everything bagel.",Food,,Regular,4.25,,,,,N,N,N,N,Y,Y,N,Y
 Chicken Salad Sandwich,,Food,,Regular,5.5,,,,,N,N,N,N,N,N,N,Y
 Hot Ham and Cheese Sandwich,,Food,,Regular,5.5,,,,,N,N,N,N,N,N,N,Y
@@ -58,7 +63,6 @@ Banana Split,,Ice Cream,,,6,,,,,N,N,N,N,N,N,N,Y
 Bravo,"Two scoops of cappuccino ice cream, Two shots espresso, coffee syrup, milk, all mixed in a milkshake blender.",Ice Cream,,Regular,6.5,,,,,Y,Y,N,N,N,N,N,Y
 Bravo,,Ice Cream,,Seasonal,6.5,,,,,Y,Y,N,N,N,N,N,Y
 Ice Cream Float,,Ice Cream,,,4,,,,,N,N,N,N,N,N,N,Y
-Ice Cream,,Ice Cream,,Baby dip,2,,,,,N,Y,N,N,N,N,N,Y
 Ice Cream,,Ice Cream,,Single,2.5,,,,,N,Y,N,N,N,N,N,Y
 Ice Cream,,Ice Cream,,Double,4.75,,,,,N,Y,N,N,N,N,N,Y
 Ice Cream,,Ice Cream,,Triple,6.75,,,,,N,Y,N,N,N,N,N,Y
@@ -67,3 +71,6 @@ Ice Cream,,Ice Cream,,Quart,12,,,,,N,Y,N,N,N,N,N,Y
 Milkshake,,Ice Cream,,Regular,5.5,,,,,N,Y,N,N,N,N,N,Y
 Sundae,,Ice Cream,,Large,5,,,,,N,N,N,N,N,N,N,Y
 Sundae,,Ice Cream,,Small,4.5,,,,,N,N,N,N,N,N,N,Y
+Add Flavor,,Extras,,,.5,,,,,N,N,N,N,N,N,N,Y
+Non-Dairy Milk,,Extras,,,.5,,,,,N,N,N,N,N,N,N,Y
+Non-Dairy Whipped Cream,,Extras,,,.5,,,,,N,N,N,N,N,N,N,Y

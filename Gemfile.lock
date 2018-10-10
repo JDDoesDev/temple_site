@@ -20,10 +20,6 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     autoprefixer-rails (9.1.4)
       execjs
-    babel-source (5.8.35)
-    babel-transpiler (0.7.0)
-      babel-source (>= 4.0, < 6)
-      execjs (~> 2.0)
     capybara (3.8.1)
       addressable
       mini_mime (>= 0.1.3)
@@ -82,8 +78,6 @@ GEM
       nokogiri (~> 1.8)
       pathutil (~> 0.16)
       sprockets (>= 3.3, < 4.1.beta)
-    jekyll-babel (1.1.0)
-      babel-transpiler
     jekyll-compress-images (1.2)
       image_optim
       image_optim_pack
@@ -187,11 +181,9 @@ DEPENDENCIES
   capybara
   jekyll (~> 3.6.2)
   jekyll-assets
-  jekyll-babel
   jekyll-compress-images
   jekyll-feed (~> 0.6)
   jekyll-material-theme!
-  jekyll-minifier
   materialize-sass
   minima (~> 2.0)
   pry
