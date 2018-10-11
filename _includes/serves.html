@@ -9,7 +9,9 @@
         {% for logo in site.logos %}
           {% if logo.name and logo.uri %}
           <div class="col s12 m3">
-            <img src="{{logo.uri}}" title="{{logo.name}}" alt="{{logo.name}}"></img>
+            <a href="{{logo.link}}" target="_blank">
+              <img src="{{logo.uri}}" title="{{logo.name}}" alt="{{logo.name}}"></img>
+            </a>
           </div>
           {% endif %}
         {% endfor %}

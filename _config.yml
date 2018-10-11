@@ -1,9 +1,9 @@
 title: Temple News Agency
 title_stub: Specialty Coffee and Ice Cream in LaPorte, IN 46350
-name: J.D. Flynn
+name: J2KM LLC
 email: jflynn8@gmail.com
 description: "LaPorte, Indiana's favorite spot for the best coffee and ice cream in town.  Located at 816 Jefferson Ave in LaPorte, Temple News Agency proudly serves specialty coffee drinks, hand dipped ice cream, pastries, and lunch and breakfast specials."
-homepage_text: "<p class='header col s12 light'>LaPorte, Indiana's favorite spot for the best coffee and ice cream in town.</p><p class='header col s12 light'>Located at 816 Jefferson Ave in LaPorte, Temple News Agency proudly serves specialty coffee drinks with Intelligentsia Coffee, hand dipped ice cream from Sherman's Ice Cream, pastries, and lunch and breakfast specials, including vegan options.</p>"
+homepage_text: "<p class='header col s12 light'>LaPorte, Indiana's favorite spot for the best coffee and ice cream in town.</p><p class='header col s12 light'>Located at 816 Jefferson Ave in LaPorte, Temple News Agency proudly serves specialty coffee drinks made with Intelligentsia Coffee, hand dipped ice cream from Sherman's Ice Cream, pastries, and lunch and breakfast specials, including vegan options.</p>"
 baseurl: ""
 url: ""
 
@@ -74,12 +74,16 @@ compress_images:
 logos:
   - name: Intelligentsia
     uri: assets/images/Intelligentsia_logo.png
+    link: http://intelligentsiacoffee.com
   - name: Coffee Masters
     uri: assets/images/CM-Logo-New.png
+    link: https://www.coffeemasters.com/
   - name: Sherman's Ice Cream
     uri: assets/images/shermans-ice-cream-logo-200.png
+    link: http://shermanicecream.com/
   - name: Dagger Mountain
     uri: assets/images/dagger-mountain.jpg
+    link: https://daggermountain.com/
 
 gallery_pics:
   - uri: assets/images/foodpics/Food1.jpg
