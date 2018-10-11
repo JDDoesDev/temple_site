@@ -1,0 +1,28 @@
+<div id="nanogallery2"></div>
+
+<script>
+  $(document).ready(function () {
+
+    $("#nanogallery2").nanogallery2({
+      thumbnailWidth: 200,
+      thumbnailHeight: "auto",
+      thumbnailBorderVertical: 0,
+      thumbnailBorderHorizontal: 0,
+      thumbnailAlignment: "center",
+      thumbnailGutterWidth: 0,
+      thumbnailGutterHeight: 0,
+      galleryDisplayMode: "pagination",
+      galleryMaxRows: 2,
+                        
+      items: [
+        {% for pic in site.gallery_pics %}
+          {% if forloop.last == true %}
+            { src: '{{ pic.uri }}', srct: '{{ pic.thumb }}', title: '{{ pic.description }}' }
+          {% else %}
+            { src: '{{ pic.uri }}', srct: '{{ pic.thumb }}', title: '{{ pic.description }}' },
+          {% endif %}
+        {% endfor %}
+      ]
+    });
+  });
+</script>
