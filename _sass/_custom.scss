@@ -158,3 +158,15 @@ h3 {
   opacity: 0;
   }
 }
+
+.cd-timeline__block {
+  margin: 0;
+
+  h2 {
+    margin: .5rem 0;
+  }
+
+  .timeline-img {
+    max-width: 66%;
+  }
+}
