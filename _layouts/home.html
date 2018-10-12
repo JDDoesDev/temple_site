@@ -7,7 +7,6 @@
   <div id="index-banner" class="parallax-container auto-height">
     <div class="section no-pad-bot">
       <div class="container center">
-        <br><br>
         {% if site.logo %}
           <img src="{{ site.logo }}" class='center site-logo' alt='{{ site.logo_description }}'/> 
         {% else %}
@@ -32,6 +31,11 @@
     {% include cookies.html %}
   </div>
 {% endif %}
+<div class="container" style="padding:20px;">
+  <div id="contact" class="section scrollspy">
+    {% include signup.html %}
+  </div>
+</div>
 <div class="container">
   <div id="portfolio" class="section scrollspy">
   {% include gallery.html %}
