@@ -133,4 +133,4 @@ gallery_pics:
     alt: "A sample of some of the food or coffee at Temple"
   
 
-exclude: [_compress_images_cache.yml]
+exclude: [_compress_images_cache.yml, material-theme.gemspec]
