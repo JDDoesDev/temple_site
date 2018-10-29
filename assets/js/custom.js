@@ -20,7 +20,7 @@ $(function () {
         flavor = 'Pumpkin Creme Brulee';
         break;
       case 1:
-        flavor = 'Highlander Grogg';
+        flavor = 'Cookie Butter';
         break;
       case 2:
         flavor = 'Sinful Delight';
@@ -29,12 +29,11 @@ $(function () {
         flavor = 'Jamaican Me Crazy';
         break;
       case 4:
-        flavor = 'Cookie Butter';
+        flavor = 'Highlander Grogg';
         break;
       case 5:
         flavor = 'Caramel';
         break;
-    
       default:
         break;
     }
