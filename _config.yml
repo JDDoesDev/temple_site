@@ -1,16 +1,16 @@
-title: Temple News Agency
+title: Temple News Agency and Coffee Studio
 title_stub: Specialty Coffee Shop and Ice Cream Parlor in LaPorte, IN 46350
 name: J2KM LLC 
 email: jflynn8@gmail.com
-description: "LaPorte, Indiana's favorite coffee shop, cafe, and ice cream parlor.  Located at 816 Jefferson Ave in LaPorte, Temple News Agency proudly serves specialty coffee drinks, hand dipped ice cream, pastries, and lunch and breakfast specials."
-homepage_text: "<p class='header col s12 light'>LaPorte, Indiana's favorite coffee shop, cafe, and ice cream parlor.</p><p class='header col s12 light'>Located at 816 Jefferson Ave in LaPorte, Temple News Agency proudly serves specialty coffee and espresso drinks made with Intelligentsia Coffee, hand dipped ice cream cones, cups, and milkshakes from Sherman's Ice Cream, pastries, and lunch and breakfast specials, including vegan options.</p>"
+description: "LaPorte, Indiana's favorite coffee shop, cafe, and ice cream parlor.  Located at 816 Jefferson Ave in LaPorte, Temple News Agency and Coffee Studio proudly serves specialty coffee drinks, hand dipped ice cream, pastries, and lunch and breakfast specials."
+homepage_text: "<p class='header col s12 light'>LaPorte, Indiana's favorite coffee shop, cafe, and ice cream parlor.</p><p class='header col s12 light'>Located at 816 Jefferson Ave in LaPorte, Temple News Agency and Coffee Studio proudly serves specialty coffee and espresso drinks made with Intelligentsia Coffee, hand dipped ice cream cones, cups, and milkshakes from Sherman's Ice Cream, pastries, and lunch and breakfast specials, including vegan options.</p>"
 baseurl: ""
 url: ""
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
 logo: assets/images/transparent-logo.png
-logo_description: 'Temple News Agency logo'
+logo_description: 'Temple News Agency and Coffee Studio logo'
 
 parallax_image_one: assets/images/Temple4.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/Temple13.jpg
