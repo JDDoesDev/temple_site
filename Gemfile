@@ -12,6 +12,7 @@ gem "rack-jekyll"
 gem "pry"
 gem "puma"
 gem 'jekyll-compress-images'
+gem 'jekyll-sitemap'
 
 
 group :jekyll_plugins do
