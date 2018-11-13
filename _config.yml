@@ -5,7 +5,7 @@ email: jflynn8@gmail.com
 description: "LaPorte, Indiana's favorite coffee shop, cafe, and ice cream parlor.  Located at 816 Jefferson Ave in LaPorte, Temple News Agency and Coffee Studio proudly serves specialty coffee drinks, hand dipped ice cream, pastries, and lunch and breakfast specials."
 homepage_text: "<p class='header col s12 light'>LaPorte, Indiana's favorite coffee shop, cafe, and ice cream parlor.</p><p class='header col s12 light'>Located at 816 Jefferson Ave in LaPorte, Temple News Agency and Coffee Studio proudly serves specialty coffee and espresso drinks made with Intelligentsia Coffee, hand dipped ice cream cones, cups, and milkshakes from Sherman's Ice Cream, pastries, and lunch and breakfast specials, including vegan options.</p>"
 baseurl: ""
-url: ""
+url: "https://www.templenewsagency.com"
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
