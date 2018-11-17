@@ -11,6 +11,7 @@ gem "pry"
 gem "puma"
 gem 'jekyll-compress-images'
 gem 'jekyll-sitemap'
+gem 'sprockets-es6'
 
 
 group :jekyll_plugins do

@@ -5,12 +5,12 @@
       <div class="card-image">
         <span class="card-title"><a style="color:white" href=""></a></span>
       </div>
-      <div class="card-content row">
+      <div class="card-content row serves">
         {% for logo in site.logos %}
           {% if logo.name and logo.uri %}
           <div class="col s12 m3">
             <a href="{{logo.link}}" target="_blank">
-              <img src="{{logo.uri}}" title="{{logo.name}}" alt="{{logo.name}}"></img>
+              <img data-src="{{logo.uri}}" alt="{{logo.name}}">
             </a>
           </div>
           {% endif %}

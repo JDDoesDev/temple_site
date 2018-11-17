@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "@mdi/font": "^2.8.94",
+    "blazy": "^1.8.2",
     "instafeed.js": "^1.4.1",
+    "intersection-observer": "^0.5.1",
     "ityped": "^1.0.3",
     "nanogallery2": "^2.3.0"
   },
