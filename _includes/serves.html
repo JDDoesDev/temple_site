@@ -6,7 +6,7 @@
         {% for logo in site.logos %}
           {% if logo.name and logo.uri %}
           <div class="col s12 m3">
-            <a href="{{logo.link}}" target="_blank">
+            <a href="{{logo.link}}" target="_blank" rel="noopener">
               <img data-src="{{logo.uri}}" alt="{{logo.name}}">
             </a>
           </div>
