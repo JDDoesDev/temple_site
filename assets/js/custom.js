@@ -40,5 +40,10 @@ $(function () {
 
     return flavor;
   }
+
+  $(".toggle-button").on("click", function() {
+    $(".toggler #portfolio").toggleClass("expanded");
+    $(".toggle-button").toggle();
+  });
 });
 
