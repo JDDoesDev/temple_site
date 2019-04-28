@@ -9,7 +9,7 @@ url: "https://www.templenewsagency.com"
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
-logo: assets/images/transparent-logo.png
+logo: assets/images/new-templev2-tran-bg.png
 logo_description: 'Temple News Agency and Coffee Studio logo'
 
 parallax_image_one: assets/images/Temple4.jpg # These are the images used for the parallax background

@@ -25,7 +25,7 @@ $(function () {
     switch (today) {
       case 0:
       case 6:
-        flavor = 'Pumpkin Creme Brulee';
+        flavor = 'Gingerbread';
         break;
       case 1:
         flavor = 'Highlander Grogg';

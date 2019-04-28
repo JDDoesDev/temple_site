@@ -8,78 +8,18 @@
     <div class="section no-pad-bot">
       <div class="container center testing">
         {% if site.logo %}
-          <img src="{{ site.logo }}" class='center site-logo' alt='{{ site.logo_description }}'/> 
+          <img src="{{ site.logo }}" class='center site-logo' alt='{{ site.logo_description }}'/>
         {% else %}
           <h1 class="header center teal-text text-lighten-2">{{ site.title }}</h1>
         {% endif %}
         <div class="row center">
-          <h1 class="header col s12 light white-text">{{ site.title }}</h1>
           {{ site.homepage_text }}
-          <p class="header col s12 light">The coffee flavor of the day is <span class="flavor-otd"></span></p>
         </div>
         <br><br>
       </div>
     </div>
     <div class="parallax"><img src="{{site.parallax_image_one}}" alt="Exterior picture of Temple News Agency and Coffee Studio"></div>
   </div>
-</div>
-{% if site.cookies_banner %}
-  <div id="cookies" style="display:show;">
-    <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check" class="waves-effect waves-light green lighten-1 btn btn-floating pulse" onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)" ><i class="material-icons">check</i></a></p>
-    {% include cookies.html %}
-  </div>
-{% endif %}
-<div class="container" style="padding:20px;">
-  <div id="square-contact" class="section scrollspy">
-    {% include signup.html %}
-  </div>
-</div>
-<div class="container toggler">
-  <div id="portfolio" class="section scrollspy">
-  {% include gallery.html %}
-  </div>
-  <div class="toggle-button">See more</div>
-</div>
-{% include timeline.html %} 
-
-<div class="container" style="padding:20px;">
-  <div id="serves" class="section scrollspy">
-    <h3 style="text-align:center;">Temple Proudly Serves</h3>
-    {% include serves.html %}
-  </div>
-</div>
-
-<h2 class="center" >Temple Menu</h2>
-  <div class="parallax-container valign-wrapper auto-height">
-    <div id="food-menu" class="section scrollspy no-pad-bot">
-      <div class="flex-container">
-        <div class="row center">
-          {% include menu.html %}
-          <div class="menu-disclaimer">
-            Note: In-store menu subject to change at any time.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img data-src="{{site.parallax_image_two}}" alt="Interior of Temple News Agency and Coffee Studio"></div>
-  </div>
-
-{% assign postArray = site.posts|size %}
-{% if postArray > 0 %}
-<div class="container" style="padding:20px;">
-  <div id="blog" class="section scrollspy">
-    <h3 style="text-align:center;">Blog</h3>
-    {% include blog-feed.html %}
-  </div>
-</div>
-{% endif %}
-
-<div class="container" style="padding:20px;">
-  <div id="contact" class="section scrollspy">
-  <h3 style="text-align:center;">Contact</h3>
-  {% include contact.html %}
-  {% include map.html %}
-</div>
 </div>
 
 
